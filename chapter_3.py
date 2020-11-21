@@ -79,3 +79,19 @@ Ma przykłądowe pola imie, nazwisko, wiek, stan konta, hobby
 Ma przykładowe metody jak urodziny (podnosi wiek), wypłata (podnosi stan konta), zakupy (zmniejsza stan konta)
 
 """
+
+class Osoba:
+
+    def __init__(self, imie, nazwisko, wiek, praca):
+        self.imie = imie
+        self.nazwisko = nazwisko
+        self.wiek = wiek
+        self.praca = praca
+        self._stan_konta = 0
+        self.hobby = ['literatura', 'film', 'szachy']
+
+    def wyplata(self, kwota):
+        self._stan_konta+=kwota
+
+    def zakupy(self, kwota):
+        self._stan_konta-=kwota
