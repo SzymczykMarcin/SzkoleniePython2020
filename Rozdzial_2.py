@@ -1,4 +1,9 @@
 import string
+from PIL import Image
+
+Image.Image.point()
+
+
 
 # def func_func(imie, zwierze):
 #     print('{} ma {}.'.format(imie, zwierze))
@@ -38,6 +43,12 @@ my_list = ['Marcin', 'Jakub', 'Taras', 'Michal']
 # #
 # #
 # # cwiczenie(my_list)
+
+def func(a=2, **kwargs): #lub *args
+    if 'argument_1' in kwargs:
+        print(kwargs['argument_1'])
+
+func(a = 13, argument_2 = 'b')
 
 
 
