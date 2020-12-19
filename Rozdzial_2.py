@@ -1,9 +1,10 @@
 import string
-from PIL import Image
 
-Image.Image.point()
+import random
 
-
+my_tup = [1, 2, 3, 4]
+print(random.randint(0, 100))
+print(random.choice(my_tup))
 
 # def func_func(imie, zwierze):
 #     print('{} ma {}.'.format(imie, zwierze))
@@ -44,11 +45,9 @@ my_list = ['Marcin', 'Jakub', 'Taras', 'Michal']
 # #
 # # cwiczenie(my_list)
 
-def func(a=2, **kwargs): #lub *args
+def func(a=2, **kwargs):  # lub *args
     if 'argument_1' in kwargs:
         print(kwargs['argument_1'])
 
-func(a = 13, argument_2 = 'b')
 
-
-
+func(a=13, argument_2='b')
