@@ -1,0 +1,135 @@
+# import re -> biblioteka do regex
+import string
+
+# print(string.capwords('ala ma kota'))
+#
+# print('ala ma kota'.capitalize())
+
+a = 123  # int
+b = 1.2457547  # float
+
+# bb = round(b, 3)
+# print(bb)
+# string
+c = 'Ala ma' \
+    ' kota.'
+d = """Ala ma kota."""
+
+# list
+e = []
+
+# dict
+f = {}
+
+# touple
+g = ()
+
+# bool
+h = True
+
+z = None
+
+# print(bool('Szkolenie'))
+# print(bool(''))
+
+# print(bool([1, 2, 3]))
+# print(bool([]))
+
+# print(bool((1, 2, 3)))
+# print(bool(()))
+
+"""
+Skróty klawiszowe
+Ctrl + / -> Komentarze
+Ctrl + Alt + l -> formatuje tekst do pep8
+Ctrl + Alt + o -> sortuje importowane biblioteki
+"""
+
+# print(type(a) is int)
+# print(1 < 3)
+# print(a is not None)
+
+# x = 5
+# y = 2
+# print(x/y)
+
+# print(bin(a))
+# print(type(hex(a)))
+#
+# print(0b0101)
+# print(0o77)
+# print(0xFB)
+
+# k = '0xFB'
+#
+# print(int(k, 16))
+
+
+l = 'Ala ma kota.'
+# l = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# print(l[1])
+# print(l[2:5])
+# print(l[-3])
+# print(l[2:-3])
+
+imie = 'Ala'
+zwierze = 'Kota'
+# # m = f'{imie} ma kota.'
+# # print(m)
+# imie = input('Wpisz imie:')
+# m = f'{imie} ma kota.'
+# print(m)
+
+# print('{} ma {}.'.format(imie, zwierze))
+
+# print(zwierze.upper() == 'KOTA')
+
+# print('obraz.png'.endswith('.png'))
+
+# print('  Ala ma kota.    '.strip())
+#
+# print('Mama kupiła Ali kota. Ala ma kota. Kasia nie ma kota.'.find(' ma '))
+
+# print('{} i {:.4f}'.format(a, b))
+
+# print('Ala ma kota.'.find('pies') != -1)
+# print('Mama kupiła Ali kota. Ala ma kota. Alina ma psa.'.replace('ma', 'chce'))
+# print('Mama kupiła Ali kota. Ala ma kota. Alina ma psa.'.replace(' ma ', ' chce '))
+# print('Mama kupiła Ali kota. Ala ma kota. Alina ma psa.'.replace('.', ''))
+#
+# print('Ala ma kota.'.split(' '))
+
+# text = 'Mama kupiła Ali kota. Ala ma kota, a Alina ma psa.'
+
+# for i in range(10):
+#     print(i)
+#
+# for i in range(4, 10):
+#     print(i)
+#
+# for i in range(10, 4, -1):
+#     print(i)
+
+# for i in range(100):
+#     print(i/10)
+
+# my_list = [5, 7, 13]
+#
+# for i in my_list:
+#     print(i)
+
+
+# for s in string.punctuation:
+#     if text.find(s) > -1:
+#         print(f'Found {s} in place {text.find(s)}')
+#     elif text.find(s) == 0:
+#         print('Nie zaczynaj od interpunkcji!!')
+#     else:
+#         print('Nic nie mam.')
+
+# cos = 1
+# while cos < 10:
+#     print(cos)
+#     cos += 1
+
+
