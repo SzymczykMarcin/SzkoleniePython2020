@@ -20,10 +20,6 @@ class MojaClasa:
         return self.zmienna_1 + other.zmienna_1
 
 
-
-
-
-
 x = MojaClasa('To jest moja klasa!!!', 'Nic')
 y = MojaClasa('To jest inna klasa!!!', 'Cos')
 # x.opis = ''
@@ -52,4 +48,5 @@ y = MojaClasa('To jest inna klasa!!!', 'Cos')
 # print(x.zmienna_1)
 # skrot()
 # print(x.zmienna_1)
+print(x)
 
