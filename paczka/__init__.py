@@ -1,0 +1,1 @@
+from paczka.plik_c import func_c
